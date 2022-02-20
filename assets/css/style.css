@@ -299,7 +299,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero .btn-get-started {
   font-size: 64px;
   transition: 0.5s;
-  color: #fff;
+  color: #5a656e;
   height: 60px;
 }
 #hero .btn-get-started:hover {
