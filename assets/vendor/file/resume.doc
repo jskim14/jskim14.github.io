@@ -1,0 +1,668 @@
+<html>
+<head>
+    <base href="https://www.saramin.co.kr">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="robots" content="noindex,nofollow">
+	<title>이력서 보기</title>
+	<style type="text/css">
+		html {color:#000;background:#fff}
+		body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,blockquote,button {margin:0;padding:0}
+		body {width:100%;min-width:1260px;font-size:13px;color:#444;font-family:"Malgun Gothic",dotum,gulim,sans-serif}
+		h1,h2,h3,h4,h5,h6 {font-size:100%;font-weight:normal}
+		ol,ul,li {list-style:none}
+		address,caption,cite,code,dfn,em,strong,th,var{font-style:inherit;font-weight:inherit}
+		p {margin:0}
+		strong {font-weight:bold}
+		caption, legend, .hidden, .blind {overflow:hidden;position:absolute;top:0;left:-1000%;z-index:-1;width:1px;height:1px;font-size:0;line-height:0}
+		.wrap_letterview div, p, ul, td, input, a, span, em {font-style:normal;font-family:"Malgun Gothic",dotum,gulim,sans-serif}
+		.ico_point {padding:2px 4px 3px 4px;border:1px solid #a8a8a8;border-radius:20px;color:#666;font-size:12px;line-height:14px;text-align:center}
+		.section_profile {width:645px;letter-spacing:-1px}
+		.section_profile .area_title .title {margin-top:0;font-size:26px;color:#222;font-weight:bold;letter-spacing:-2px;line-height:28px;text-align:left;word-wrap:break-word;word-break:break-word}
+		.personal_info {table-layout:fixed;padding-top:42px;margin-top:12px;border-top:1px solid #888}
+		.personal_info:after {display:table;table-layout:fixed;clear:both;content:""}
+		.myname {padding-bottom:10px}
+		.myname em {display:inline-block;padding-right:15px;color:#444;font-size:22px;font-weight:bold;line-height:16px}
+		.myname .birthday {display:inline-block}
+		.myname .birthday span {display:inline-block;padding:0 8px}
+		.address_list td {font-size:12px;letter-spacing:0}
+		.address_list td p {margin-right:10px;padding-top:10px;word-wrap:break-word;word-break:break-all;-ms-word-wrap:break-word;-ms-word-break:break-all}
+		.keypoint_list table {padding:20px 0 10px;width:645px}
+		.keypoint_list .list_type1 {padding-left:20px}
+		.keypoint_list .list_type1 li {margin-bottom:3px;font-size:12px;line-height:14px}
+		.keypoint_list .list_type1 li p {font-size:12px;word-wrap:break-word;word-break:break-all;-ms-word-wrap:break-word;-ms-word-break:break-all}
+		.dashboard {width:645px}
+		.dashboard table {width:645px}
+		.dashboard .dashboard_list {width:643px;margin-bottom:20px;border-collapse:collapse;background:#fcfcfc}
+		.dashboard .dashboard_list th {padding: 10px 15px 0 15px;text-align: center;background:#fcfcfc;border:1px solid #eaeaea;font-size: 12px;white-space:nowrap}
+		.dashboard .dashboard_list th p {margin:0 10px 15px 11px;font-weight:bold}
+		.dashboard .dashboard_list td {padding: 10px 15px 20px 15px;vertical-align: middle;background: #fff;text-align: center;border: 1px solid #eaeaea}
+		.dashboard .dashboard_list td p {font-size: 12px;word-wrap: break-word;word-break: break-all;-ms-word-wrap: break-word;-ms-word-break: break-all}
+		.section_part .area_title {position:relative;margin-top:58px}
+		.section_part .area_title .title {margin:0;padding:0;color:#444;font-size:23px;font-weight:bold;line-height:23px;text-align:left;font-family:"Malgun Gothic",dotum,gulim,sans-serif}
+		.indetail {padding-left:18px;font-size:16px;font-weight:normal}
+		.indetail .bar {display:inline-block;position:relative;padding-left:11px;margin-left:11px}
+		.indetail .bar:after {position:absolute;left:0;top:5px;width:1px;height:10px;background:#cacaca;content:""}
+		.indetail span em {display:inline-block;margin:0 2px 0 3px;color:#fe6854;font-weight:bold}
+		.bar_txtline em {display:inline-block;color:#444;font-size:12px;line-height:20px}
+		.bar_txtline span {padding-left:12px;margin-left:12px;position:relative;color:#444;font-size:12px;line-height:15px}
+		.bar_txtline span:after {position:absolute;left:0;top:5px;width:1px;height:10px;background:#cacaca;content:""}
+		.portfolio_txtline {position:relative;margin-top:10px}
+		.portfolio_txtline:first-child {margin-top:0}
+		.portfolio_txtline span {font-size:12px}
+		.portfolio_txtline span.volume {display:inline-block;position:relative;padding-left:12px;margin-left:12px;color:#444;line-height:15px;vertical-align:bottom}
+		.portfolio_txtline span.volume:after {display:block;content:'';position:absolute;left:0;top:2px;width:1px;height:10px;background:#cacaca}
+		.section_part .part_table {margin-top:15px;border-top:2px solid #666;background-color:#fff}
+		.section_part .part_table a {color:#444}
+		.section_part .part_table .box_point {margin-bottom:10px}
+		.part_table .inpart_view {margin:0;padding:0;width:100%;border:0;border-left:1px solid #eaeaea;border-collapse:collapse;background-color:#fff}
+		.part_table .inpart_view th {padding:18px 0 20px 0;border:1px solid #eaeaea;white-space:nowrap;color:#444;font-size:12px;font-weight:bold;background:#f7f7f7}
+		.part_table .inpart_view td {padding:15px 14px 17px 14px;border:1px solid #eaeaea;padding-bottom: 20px;font-size: 12px;word-wrap: break-word;word-break: break-all;-ms-word-wrap: break-word;-ms-word-break: break-all;font-family:"Malgun Gothic",dotum,gulim,sans-serif}
+		.part_table .inpart_view td.lineup_center {padding-right:5px;padding-left:5px;text-align:center}
+		.part_table .inpart_view .intit {word-wrap: break-word;word-break:break-all;-ms-word-wrap:break-word;-ms-word-break:break-all}
+		.part_table .inpart_view .intxt {word-wrap: break-word;word-break:break-all;-ms-word-wrap:break-word;-ms-word-break:break-all}
+		.part_table .inpart_view td .ico_point {padding-top:0px;padding-left:7px;padding-right:7px;margin-right:15px}
+		.part_table .inpart_view td .bar_txtline {margin:0}
+		.part_table .inpart_view .project {display:inline-block;padding-top:14px;font-size:14px;line-height:20px;letter-spacing:-1px;vertical-align:top}
+		.part_table .inpart_view .project li {margin-top:-12px;padding-left:4px}
+		.part_table .inpart_view .project .tit {display:block;margin:0 0 0 -3px;font-weight:bold}
+		.part_table .inpart_view .project .tit:before {display:inline-block;margin:9px 7px 0 0;width:0;height:0;border:3px solid #444;border-radius:4px;vertical-align:top;content:""}
+		.part_table .inpart_view .project .desc {padding:0 0 24px 10px;border-left:1px dashed #c0c0c0}
+		.part_table .inpart_view .project .desc .date {display:block;padding:5px 0}
+		.part_table .inpart_view .project li:last-child .desc {border-color:#fff;padding-bottom:0}
+		.part_table .inpart_view .txt_detail {padding-top:10px}
+		.part_table .inpart_view th {border-top:0}
+		.part_table .inpart_view td.wrap_result {padding:30px}
+		.part_table .unit_result {overflow:hidden;position:relative;width:100%;border:0;box-sizing:border-box}
+		.part_table .unit_result th {padding:0;border:0;background:#fff}
+		.part_table .unit_result td {padding:0;border:0;text-align:center;background:#fff}
+		.part_table .unit_result .tit {color:#666;font-size:12px;font-weight:normal}
+		.part_table .unit_result .result {margin:0;padding:0;margin-top:5px;color:#444;font-size:21px}
+		.part_table .unit_result .result span {padding-left:3px;font-size:13px;line-height:18px}
+		.part_table .unit_result .row_color {color:#12a8f6}
+		.part_table .unit_result .middle_color {color:#4d87e8}
+		.part_table .unit_result .high_color {color:#5b6feb}
+		.part_table .unit_result .fst .result {font-weight:bold;letter-spacing:-2px}
+		.part_table .unit_result .fst .result span {font-size:21px}
+		.part_table .unit_result .type_num .result {margin-top:5px;font-weight:bold;font-size:23px}
+		.part_table .total_result {position:relative;border-top:0}
+		.part_table .total_result td {border:0}
+		.part_table .total_result .tit_result {border:0;padding:0 0 10px;color:#444;font-weight:bold;font-size:16px;text-align:left;letter-spacing:-2px;background:#fff}
+		.part_table .total_result .key_info {padding-top:13px;border:0;color:#888;font-size:12px;line-height:16px}
+		.part_table .total_result .key_info table {border-collapse:collapse;border-spacing:0;table-layout:fixed;letter-spacing:-1px}
+		.part_table .total_result .key_info table th {padding:7px 0 0;width:82px;border:0;color:#666;font-size:12px;font-weight:bold;text-align:left;vertical-align:top;background:#fff}
+		.part_table .total_result .key_info table th span:before {display:inline-block;margin:-2px 5px 0 0;border:1px solid #999;border-radius:50%;vertical-align:middle;content:""}
+		.part_table .total_result .key_info table td {padding:7px 0 0;border:0;color:#888}
+		.part_table .total_result .personality_detail {padding:16px 0 30px;border-bottom:1px solid #eaeaea;font-size:12px}
+		.part_table .total_result .aptitude_detail {margin:0 0 20px;padding:0;border:1px solid #eaeaea;border-top:1px solid #444}
+		.part_table .total_result .aptitude_detail table {width:100%;border-collapse:collapse;border-spacing:0;table-layout:fixed;letter-spacing:-1px}
+		.part_table .total_result .aptitude_detail table th {padding:11px 0 13px;border:0;color:#888;font-size:12px;font-weight:normal;text-align:center;background:none}
+		.part_table .total_result .aptitude_detail table td {padding:20px 15px 23px;border-top:1px solid #eaeaea;box-sizing:border-box;color:#222}
+		.part_table .total_result .aptitude_detail table td strong {color:#222}
+		.part_table .total_result .aptitude_detail table td.tit {width:70px;font-weight:bold;text-align:center}
+		.part_table .total_result .aptitude_detail table td.rating {width:70px;padding-right:10px;padding-left:10px;font-size:22px;line-height:22px}
+		.part_table .total_result .aptitude_detail table td.per {width:70px;font-size:18px}
+		.part_table .total_result .aptitude_detail table td.text {color:#666;font-size:12px;text-align:left}
+		.my_letter_view .intit {padding-top:30px;font-weight:bold;color:#222}
+		.my_letter_view .intit:first-child {padding-top:0}
+		.my_letter_view .intxt {padding-top:5px}
+	</style>
+</head>
+<body style="text-align:center;">
+<div class="wrapper_narrow wrap_letterview">
+	<!-- 제목 -->
+<table width="645" border="0" cellspacing="0" cellpadding="0" style="width:645px;">
+    <tr>
+        <td>
+            <div class="section_profile">
+                <div class="area_title">
+                    <h3 class="title">항상 발전하는 개발자가 되고싶은 신입 지원자 김지수입니다. </h3>
+                </div>
+            </div>
+        </td>
+    </tr>
+</table>
+<!-- 기본정보 -->
+<table width="645" border="0" cellspacing="0" cellpadding="0" style="width:645px;">
+    <colgroup>
+        <col width="100%">
+    </colgroup>
+    <tbody>
+    <tr>
+        <td>
+            <div class="section_profile">
+                <div class="personal_info">
+                    <div class="my_data">
+                        <table style="width:645px;">
+                                                            <colgroup>
+                                    <col width="120px">
+                                    <col width="525px">
+                                </colgroup>
+                                                        <tbody>
+                            <tr>
+                                                                    <td>
+                                        <div style="width:100px"><img alt="" src="https://www.saramin.co.kr/zf_user/persons/picture?idx=5454412|82c862392ff5f6063f20c75bb619d3869298f15eee31dae011b62ffa22ff3b39" border="0" width="100" height="140" /></div>
+                                    </td>
+                                                                <td>
+                                    <p class="myname">
+                                        <em>김지수</em>
+                                        <span class="birthday">
+                                            <span>1992년 (31세/만 29세)</span> |
+                                            <span>여</span> |
+                                            <span>구직중</span>
+                                        </span>
+                                    </p>
+                                    <table class="address_list" cellspacing="0" border="0" cellpadding="0" style="width:525px">
+                                        <tbody>
+                                        <tr>
+                                            <td><p>jstory14@naver.com</p></td>
+                                            <td><p>010-5016-7278 </p></td>
+                                            <td><p>02-6672-7278</p></td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="3"><p>(150-802) 서울 영등포구 당산동3가 </p></td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </td>
+    </tr>
+    </tbody>
+</table>
+<table width="645" border="0" cellspacing="0" cellpadding="0" style="width:645px;">
+    <colgroup>
+        <col width="100%">
+    </colgroup>
+    <tbody>
+    <tr>
+        <td>
+            <div class="dashboard">
+                <table class="dashboard_list" cellspacing="0" border="0" cellpadding="0">
+                    <thead>
+                    <tr>
+                        <th><p>학력사항</p></th>
+                        <th><p>경력사항</p></th>
+                        <th><p>희망연봉</p></th>
+                        <th><p>희망근무지/근무형태</p></th>
+                        <th><p>포트폴리오</p></th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>
+                            <p class="txt">대학교(4년) 졸업</p>
+                        </td>
+                        <td>
+                            <p class="txt">신입 </p>
+                        </td>
+                        <td>
+                            <p class="txt">회사내규에 따름</p>
+                        </td>
+                        <td>
+                            <p class="txt">서울전체<br>정규직</p>
+                        </td>
+                        <td>
+                            <p class="txt portfolio_txt">총 2건</p>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </td>
+    </tr>
+    </tbody>
+</table><table width="645" border="0" cellspacing="0" cellpadding="0" style="width:645px;">
+    <colgroup>
+        <col width="100%">
+    </colgroup>
+    <tbody>
+    <tr>
+        <td>
+            <div class="section_part">
+                <div class="area_title">
+                    <h3 class="title">학력<span class="indetail">최종학력<span class="bar">대학교<em>4년</em>졸업</span></span></h3>
+                </div>
+                                    <div class="part_table">
+                                                    <table class="inpart_view" cellspacing="0" cellpadding="0">
+                                <thead>
+                                <tr>
+                                    <th scope="col">재학기간</th>
+                                    <th scope="col">구분</th>
+                                    <th scope="col">학교명(소재지)</th>
+                                    <th scope="col">전공</th>
+                                    <th scope="col">학점</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                                                                                    <tr>
+                                        <td class="lineup_center" rowspan="1">
+                                            2011.03 ~ 2016.02                                        </td>
+                                        <td class="lineup_center" rowspan="1">
+                                            졸업                                        </td>
+                                        <td>
+                                            강원대학교(춘천) (강원)                                        </td>
+                                        <td>
+                                            국제무역                                                                                        <br/>스토리텔링                                            (복수전공)                                        </td>
+                                        <td class="lineup_center">3.76 / 4.5</td>
+                                    </tr>
+                                                                                                                                        <tr>
+                                        <td class="lineup_center" rowspan="1">
+                                            2009.03 ~ 2011.02                                        </td>
+                                        <td class="lineup_center" rowspan="1">
+                                            졸업                                        </td>
+                                        <td>
+                                            관악고등학교                                        </td>
+                                        <td>
+                                            문과계열                                                                                                                                                                            </td>
+                                        <td class="lineup_center">-</td>
+                                    </tr>
+                                                                                                    </tbody>
+                            </table>
+                                            </div>
+                                                            </div>
+        </td>
+    </tr>
+    </tbody>
+</table><table width="645" border="0" cellspacing="0" cellpadding="0" style="width:645px;">
+    <colgroup>
+        <col width="100%">
+    </colgroup>
+    <tbody>
+    <tr>
+        <td>
+            <div class="section_part">
+                <div class="area_title">
+                    <h3 class="title">경력<span class="indetail">신입</span></h3>
+                                    </div>
+                <div class="part_table">
+                                    </div>
+            </div>
+        </td>
+    </tr>
+    </tbody>
+</table><table width="645" border="0" cellspacing="0" cellpadding="0" style="width:645px;">
+    <colgroup>
+        <col width="100%">
+    </colgroup>
+    <tbody>
+    <tr>
+        <td>
+            <div class="section_part">
+                <div class="area_title">
+                    <h3 class="title">대외활동</h3>
+                </div>
+                <div class="part_table">
+                    <table class="inpart_view" cellspacing="0" cellpadding="0">
+                        <thead>
+                        <tr>
+                            <th scope="col">기간</th>
+                            <th scope="col">구분</th>
+                            <th scope="col">기관/장소</th>
+                            <th scope="col">내용</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                                                                                <tr>
+                                <td class="lineup_center">2021.09 ~ 2022.02</td>
+                                <td class="lineup_center">교육이수내역</td>
+                                <td>구디아카데미</td>
+                                <td>1. 교육과정 : 자바기반 스마트 웹 & 콘텐츠 개발자 양성과정<br />
+2. 교육내용<br />
+- Smart Web Front-End : Html, CSS, JavaScript, jQuery<br />
+- DataBase : Oracle DB<br />
+- Smart Web Server Programming : JAVA, JSP, servlet, SpringFramework, MyBatis<br />
+- Smart Web Project : semi, final <br />
+<br />
+3. 프로젝트<br />
+(1) semi<br />
+- 제목 : 오프라인, VOD 강의 플랫폼<br />
+- 기간 : 21.12.01 ~ 21.12.30<br />
+- 인원 : 5명<br />
+- 개발내용 : <br />
+1) 회원은 수강생과 튜터로 구분되며 튜터는 강의 등록이 가능합니다.<br />
+2) 수강생은 강의를 검색하고 내용을 확인하여 수강신청을 할 수 있습니다.<br />
+3) 강의는 오프라인과 VOD강의로 나뉘며 오프라인은 원데이 클래스와 다회차 클래스로 구분됩니다. 원데이클래스는 여러번 신청할 수 있습니다.<br />
+<br />
+- 담당업무 :<br />
+1) 강의(원데이, 다회차, VOD 강의) 상세페이지 구현<br />
+2) 수강신청 : AJAX를 활용하여 강의를 선택하고 해당 강의에 대한 내용을 확인 후 결제페이지로 연결<br />
+3) 댓글, 대댓글 작성 / 수정 / 신고: 강의를 수강한 수강생은 별점(최대5점)과 함께 댓글 등록이 가능함. 해당 강의의 강사는 대댓글 등록이 가능함. 악의적 비방에 관하여 신고하여 관리자가 처리할 수 있도록 구현.<br />
+<br />
+<br />
+(2) FINAL -Spring boot 사용<br />
+- 제목 : 일반 / 실시간 경매사이트 <br />
+- 기간 : 21.01.17 ~ 21.02.24 <br />
+- 인원 : 4명<br />
+- 개발내용 :<br />
+1) 회원간 자유로운 물품거래가 가능하며 물품은 경매형식과 즉시구매 형태로 구매할 수 있습니다.<br />
+2) 일반경매는 판매자가 지정한 기간동안 경매가 이루어지며 기회경매(실시간)는 미리 고지한 시간동안 실시간으로 경매가 이루어집니다.<br />
+3) 경매입찰 및 즉시구매는 충전된 이머니로 사용됩니다.<br />
+<br />
+- 담당업무 :<br />
+1) 경매물품 등록 / 수정 / 삭제 : 물품사진을 최대 4장까지 등록가능, 경매종료일을 최대 2주까지 설정함. 물품설명시 editor를 사용함. <br />
+2) 구매,판매물품 관리페이지 : 물품의 상태를 확인하고 상태 별로 관리가능. 동적쿼리를 활용하여 물품에 대한 상태, 날짜를 기준으로 검색기능을 구현함. <br />
+3) 회원정보 수정, 비밀번호 변경<br />
+4) 최근 본 상품 페이지 : 쿠키를 활용하여 최근 본 상품을 정렬하고 삭제가 가능함.<br />
+5) 관심상품 페이지 : 관심상품으로 등록한 물품을 최신 순으로 정렬하고 물품의 현재상태를 확인할 수 있음. 관심상품을 물품 별로 등록해제가 가능함.<br />
+6) 이머니 내역 페이지 : 충전 및 사용내역을 최신 순으로 정렬하고 해당 내역을 사용, 적립, 충전 내역 별로 분류가 가능하며 paging 처리를 하였음. <br />
+</td>
+                            </tr>
+                                                                                <tr>
+                                <td class="lineup_center">2019.03 ~ 2021.08</td>
+                                <td class="lineup_center">사회활동</td>
+                                <td>유니에스</td>
+                                <td>계약형태 : 정규직<br />
+업무내용 : 고용노동부 사업 민간위탁 업무수행<br />
+- 참여자 관리, 지원금 자격 검토 및 지급<br />
+퇴사사유 : 개인사유 (업종전환)</td>
+                            </tr>
+                                                                                <tr>
+                                <td class="lineup_center">2016.05 ~ 2017.05</td>
+                                <td class="lineup_center">사회활동</td>
+                                <td>국민대통합위원회</td>
+                                <td>계약형태 : 계약직<br />
+업무내용 : 홈페이지 관리 및 전화응대, 사무업무<br />
+퇴사사유 : 계약만료 </td>
+                            </tr>
+                                                                                <tr>
+                                <td class="lineup_center">2015.06 ~ 2015.08</td>
+                                <td class="lineup_center">인턴</td>
+                                <td>문화마케팅연구소</td>
+                                <td>국내 관광지 '트래블투데이' 기사작성<br />
+국내 관광 플랫폼 '트래블아이' 콘텐츠 DB관리</td>
+                            </tr>
+                                                                                <tr>
+                                <td class="lineup_center">2012.12 ~ 2014.06</td>
+                                <td class="lineup_center">사회활동</td>
+                                <td>신시컴퍼니</td>
+                                <td>대외활동- 뮤지컬＜고스트＞ 마케팅 크리에이터<br />
+마케팅 전략을 수립<br />
+공식홍보채널 관리 및 웹진 기획</td>
+                            </tr>
+                                                </tbody>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </td>
+    </tr>
+    </tbody>
+</table><table width="645" border="0" cellspacing="0" cellpadding="0" style="width:645px;">
+    <colgroup>
+        <col width="100%">
+    </colgroup>
+    <tbody>
+    <tr>
+        <td>
+            <div class="section_part">
+                <div class="area_title">
+                    <h3 class="title">자격증/어학/수상내역</h3>
+                </div>
+                <div class="part_table">
+                    <table class="inpart_view" cellspacing="0" cellpadding="0">
+                        <thead>
+                        <tr>
+                            <th scope="col">취득일/수상일</th>
+                            <th scope="col">구분</th>
+                            <th scope="col">자격/어학/수상명</th>
+                            <th scope="col">발행처/기관/언어</th>
+                            <th scope="col">합격/점수</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                                                                                <tr>
+                                <td class="lineup_center">2018.11 </td>
+                                <td>자격증/면허증</td>
+                                <td>직업상담사2급 </td>
+                                <td>한국산업인력공단</td>
+                                <td>최종합격</td>
+                            </tr>
+                                                                                <tr>
+                                <td class="lineup_center">2016.12 </td>
+                                <td>자격증/면허증</td>
+                                <td>스포츠경영관리사</td>
+                                <td>한국산업인력공단</td>
+                                <td>최종합격</td>
+                            </tr>
+                                                                                <tr>
+                                <td class="lineup_center">2016.03 </td>
+                                <td>자격증/면허증</td>
+                                <td>2종보통운전면허(오토)</td>
+                                <td>경찰청(운전면허시험관리단)</td>
+                                <td>최종합격</td>
+                            </tr>
+                                                                                <tr>
+                                <td class="lineup_center">2015.09 </td>
+                                <td>자격증/면허증</td>
+                                <td>컴퓨터활용능력2급</td>
+                                <td>대한상공회의소</td>
+                                <td>최종합격</td>
+                            </tr>
+                                                </tbody>
+                    </table>
+                </div>
+            </div>
+        </td>
+    </tr>
+    </tbody>
+</table><table width="645" border="0" cellspacing="0" cellpadding="0" style="width:645px;">
+    <colgroup>
+        <col width="100%">
+    </colgroup>
+    <tbody>
+    <tr>
+        <td>
+            <div class="section_part">
+                <div class="area_title">
+                    <h3 class="title">보유기술</h3>
+                </div>
+                <div class="part_table">
+                    <table class="inpart_view" cellspacing="0" cellpadding="0" width="645">
+                        <thead>
+                            <th scope="col">보유기술명/수준/상세내용</th>
+                        </thead>
+                        <tbody>
+                                                                                <tr>
+                                <td>
+	                                <b>Java</b>	                                		                                <p class="txt_detail">기본 자바문법(제어문, 변수활용, 조건문)은 사용할 수 있으며<br />
+collection을 이용한 데이터를 관리하는 기능을 구현할 수 있습니다.<br />
+실행 중 발생하는 예외에 대한 처리가 가능합니다.<br />
+파일입출력(IO)을 통한 데이터 저장처리 기능 구현할 수 있습니다.</p>
+	                                                                </td>
+                            </tr>
+                                                                                <tr>
+                                <td>
+	                                <b>JSP</b>	                                		                                <p class="txt_detail">jsp태그 및 EL, JSTL을 이용해서 기본적인 각종 페이지를 구성할 수 있습니다.</p>
+	                                                                </td>
+                            </tr>
+                                                                                <tr>
+                                <td>
+	                                <b>Java Servlet</b>	                                		                                <p class="txt_detail">Redirect와 Forward의 차이점을 알고 적용할 수 있습니다.<br />
+MVC패턴을 활용하여 데이터를 처리가 가능합니다.</p>
+	                                                                </td>
+                            </tr>
+                                                                                <tr>
+                                <td>
+	                                <b>Spring Boot</b>	                                		                                <p class="txt_detail">springLegacy : maven을 설정을 통해 기본적인 라이브러리를 등록할 수 있으며,  <br />
+DI, IOC를 통해 bean을 등록 및 사용할 수 있습니다. <br />
+spring이 제공하는 어노테이션을 이용해서 MVC2패턴을 적용한 웹사이트를 작성할 수 있습니다.<br />
+<br />
+springboot : springboot에 대한 yml, properties를 이용해서 프로젝트에 필요한 설정할 수 있으며, mvc2패턴을 이용한 웹사이트를 만들 수 있습니다. <br />
+프로젝트에서는 jsp페이지와 연결하여 springboot로 웹사이트를 구성했습니다.</p>
+	                                                                </td>
+                            </tr>
+                                                                                <tr>
+                                <td>
+	                                <b>MyBatis</b>	                                		                                <p class="txt_detail">mybatis를 이용해서 CRUD를 구현할 수 있으며<br />
+xml설정과 어노테이션방식의 설정방식을 모두 사용할 수 있습니다.<br />
+mybatis에서 제공하는 동적쿼리를 이용해서 쿼리문을 동적으로 사용할 수 있습니다.</p>
+	                                                                </td>
+                            </tr>
+                                                                                <tr>
+                                <td>
+	                                <b>Ajax</b>	                                		                                <p class="txt_detail">Ajax통신을 통해 기본적인 SPA를 구성할 수 있으며, JSON을 통한 데이터처리가 가능합니다.</p>
+	                                                                </td>
+                            </tr>
+                                                                                <tr>
+                                <td>
+	                                <b>Oracle SQL</b>	                                		                                <p class="txt_detail">SELECT, DML, DDL을 활용해서 기본적인 데이터 조회를 할 수 있습니다. <br />
+집합연산을 사용해서 한 개의 테이블로 조회할 수 있으며, 다수 테이블에 저장되어있는 데이터를 join, 서브쿼리를 이용<br />
+해서 데이터를 가지고 올 수 있습니다.<br />
+테이블생성에 필요한 제약조건을 활용할 수 있으며 기본적으로 서비스에 필요한 테이블 설계를 프로젝트시에 경험해 봤습니다.</p>
+	                                                                </td>
+                            </tr>
+                                                                                <tr>
+                                <td>
+	                                <b>HTML</b>	                                		                                <p class="txt_detail">html태그와 기본적인 css문법을 이용해서 페이지를 구성할 수 있습니다.<br />
+bootStrap을 이용해서 프로젝트에서 반응형 사이트도 구현해봤습니다.</p>
+	                                                                </td>
+                            </tr>
+                                                                                <tr>
+                                <td>
+	                                <b>jQuery</b>	                                		                                <p class="txt_detail">DOM을 이용해서 interative한 페이지를 구성할 수 있습니다.<br />
+ES6를 이용한 최신문법 적용할 수 있습니다.<br />
+jquery가 제공하는 기본적인 함수를 모두 사용하여 DOM을 생성, 수정, 삭제가 가능합니다.</p>
+	                                                                </td>
+                            </tr>
+                                                                                <tr>
+                                <td>
+	                                <b>JavaScript</b>	                                		                                <p class="txt_detail">JavaScript 함수 및 이벤트 사용이 가능합니다.<br />
+IE 기반의 HTML 코딩, JAVA Script 기본 기술 활용이 가능합니다.</p>
+	                                                                </td>
+                            </tr>
+                                                </tbody>
+                    </table>
+                </div>
+            </div>
+        </td>
+    </tr>
+    </tbody>
+</table><table width="645" border="0" cellspacing="0" cellpadding="0" style="width:645px;">
+    <colgroup>
+        <col width="100%">
+    </colgroup>
+    <tbody>
+    <tr>
+        <td>
+            <div class="section_part">
+                <div class="area_title">
+                    <h3 class="title">포트폴리오/기타문서</h3>
+                </div>
+                <div class="part_table">
+                    <table class="inpart_view" cellspacing="0" cellpadding="0">
+	                    <colgroup>
+		                    <col width="19%">
+		                    <col width="*">
+	                    </colgroup>
+                        <thead>
+                        <tr>
+                            <th scope="col">파일 구분</th>
+                            <th scope="col">파일명</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                                                                                    <tr>
+                                    <td class="lineup_center">포트폴리오</td>
+                                    <td>
+                                                                                    <div class="portfolio_txtline">
+                                                <a href="https://github.com/jskim14/susemi.git" class="portfolio ico_pdf05" target="_blank"><span>https://github.com/jskim14/susemi.git</span></a>                                                                                                    <div class="keypoint_list">
+                                                        <ul class="list_type1">
+                                                                                                                                                                                            <li><p>작업기간 : 2021-11-29&nbsp;~&nbsp;2021-12-30&nbsp;(1개월 2일)</p></li>
+                                                                                                                                                                                            <li><p>작업 인원 : 5</p></li>
+                                                                                                                                                                                            <li><p>작업 툴 : Eclipse, SQL Developer, figma</p></li>
+                                                                                                                                                                                            <li><p>작품소개 : - 개요 : 다양한 분야의 오프라인, VOD 강의를 쉽고 저렴하게
+접할 수 있도록 기회를 제공하는 웹 서비스 구현
+
+-맡은부분 : 강의 상세 페이지 / 수강신청 / 댓글 등록 및 삭제 / CSS
+</p></li>
+                                                                                                                    </ul>
+                                                    </div>
+                                                                                            </div>
+                                                                                    <div class="portfolio_txtline">
+                                                <a href="https://github.com/jskim14/finalproject.git" class="portfolio ico_pdf05" target="_blank"><span>https://github.com/jskim14/finalproject.git</span></a>                                                                                                    <div class="keypoint_list">
+                                                        <ul class="list_type1">
+                                                                                                                                                                                            <li><p>작업기간 : 2022-01-17&nbsp;~&nbsp;2022-02-24&nbsp;(1개월 8일)</p></li>
+                                                                                                                                                                                            <li><p>작업 인원 : 4</p></li>
+                                                                                                                                                                                            <li><p>작업 툴 : Eclipse(STS4), SQL Developer, figma</p></li>
+                                                                                                                                                                                            <li><p>작품소개 : - 개요 : 물품거래를 경매형식으로 거래하고 실시간 경매 및 즉시구매가 가능한 서비스를 구현함.
+- 맡은부분 : 물품등록 및 수정/삭제, 관심상품등록, 오늘 본 상품 확인, 구매 및 판매 단계 관리, 사이버머니 관리
+
+</p></li>
+                                                                                                                    </ul>
+                                                    </div>
+                                                                                            </div>
+                                                                            </td>
+                                </tr>
+                                                                            </tbody>
+                    </table>
+                </div>
+            </div>
+        </td>
+    </tr>
+    </tbody>
+</table><table width="645" border="0" cellspacing="0" cellpadding="0" style="width:645px;">
+    <colgroup>
+        <col width="100%">
+    </colgroup>
+    <tbody>
+    <tr>
+        <td>
+            <div class="section_part">
+                <div class="area_title">
+                    <h3 class="title">자기소개서</h3>
+                </div>
+                <div class="part_table">
+                    <table class="inpart_view" cellspacing="0" cellpadding="0">
+                        <tbody>
+                        <tr>
+                            <td class="my_letter_view">
+                                                                                                        <p class="intit">[자기소개]</p>
+                                    <div class="intxt">[하고자 하는 일은 반드시 해내는 사람]<br />
+안녕하십니까, 현실에 안주하지 않고 늘 발전하고 싶은 신입 개발자 지원자 김지수입니다. 대학교 시절부터 저는, 제게 부족한 면이 있다고 판단하면 즉시 필요한 교육이나 대외활동을 하며 자기계발을 위해 움직였습니다. 또한, 하고자 하는 일이 있으면 도전해보며 후회하지 않는 삶을 살고자 하였습니다. 그 중 웹 개발자는 가장 오랫동안 고민하던 분야였습니다. 하지만 제가 가진 도전정신과 집요함이 장점으로 활용할 수 있을 것이라 생각했고 전문 교육과정을 수강하게 되었습니다. <br />
+<br />
+교육과정을 이수하며 개발자에게 필요한 역량이 무엇인가 생각해보았습니다. 첫 번째 역량은 '로직을 설계할 수 있는 논리적인 사고' 라고 생각합니다. 가장 효율적이고 타당하게 설계하고 그것을 구축해 내는 것이 중요하기 때문입니다. 두 번째 역량은 '포기하지 않는 끈기' 라고 생각합니다. 첫 번째 능력인 사고가 조금 부족하다면 반복되는 훈련과 우직한 끈기로 보완할 수 있었습니다. 스스로에게 '10분만 더 해보자' 라고 다독이면 어느새 1시간을 하고 있었고 그 시간이 계속 늘어나면서 어느새 코드를 완성하는 제 자신을 볼 수 있었습니다. 이렇게 개발자로서의 역량을 쌓아가며 우수한 개발자가 되기 위한 준비를 해왔습니다.<br />
+<br />
+</div>
+                                                                                                        <p class="intit">[성격의 장점]</p>
+                                    <div class="intxt">[차근차근 계획적으로, 그러나 융통성 있게]<br />
+어떤 일을 할 때 먼저 계획하고 차분히 생각하려 노력하는 저의 삶의 태도는 성격의 장점이자 필요한 역량이라고 생각합니다. 이러한 장점은 이전 직장에서 업무를 처리할 때도 크게 도움이 되었습니다. 업무를 수행할 때도 기간과 단계를 설정하여 그 안에서 완료할 수 있도록 하였습니다. 하지만 모든 업무가 그렇듯, 갑작스럽게 상황이 변하거나 급하게 실적보고를 해야 할 때면 계획대로만 수행할 수 없는 상황이 많았습니다. 그럴 때면 유연하게 융통성을 발휘하며 조금씩 수정해가면서 업무를 수행하였습니다. <br />
+<br />
+프로젝트를 수행할 때도 이런 상황이 많았습니다. 비록 프로젝트 조를 이끄는 리더는 아니었지만 전체적인 기간을 설정하고 단계 별로 수행할 업무를 나눌 수 있도록 토의하고 설정하였습니다. 예상한 대로 설정한 기간 안에 일이 이루어지지 않더라도 당황하지 않고 함께 협력하고 도와 무사히 프로젝트를 마칠 수 있었습니다. 입사 후에도 개발 업무를 수행할 때 저의 장점을 활용하여 업무를 수행할 것입니다. <br />
+<br />
+</div>
+                                                                                                        <p class="intit">[기술역량]</p>
+                                    <div class="intxt">[독학으로 시작했던 공부]<br />
+어릴 적부터 컴퓨터로 무언가를 만드는 일을 좋아하였던 저는, 우연한 기회로 html과 javascript를 공부하게 되었습니다. 이때 간단한 웹 사이트를 만들어보며 흥미를 느끼게 되어 유튜브와 인프런 무료강의 등을 참고하며 간단한 기능들을 익혔습니다. 웹 개발에 가장 필수적인 언어인 Java에 대해 이해하기 위하여 인터넷 강의로 Java공부를 하였고 재미를 느끼며 꿈을 키웠습니다. 혼자 공부하는 것보다 전문적인 교육과정을 이수하며 기초를 탄탄하게 키우고 싶어 프로그래밍 전문 교육과정을 이수하게 되었습니다. <br />
+<br />
+[두 번의 프로젝트를 통하여 역량을 강화하였습니다.]<br />
+교육과정을 진행하며 두 번의 프로젝트를 수행하였습니다. 세미프로젝트는 JSP와 servlet을 활용하여 MVC패턴으로 구현하였으며 톰캣 9.0 버전을 사용하며 WAS의 동작구조를 이해하였습니다. <br />
+세미프로젝트는 온, 오프라인 강의를 탐색하고 수강을 할 수 있는 사이트인데, 저는 강의와 관련된 페이지와 기능을 수행하였습니다. 강의에 대한 내용을 확인할 수 있는 상세페이지를 구현하고 강의를 선택하고 수강을 신청하여 결제페이지로 연결 될 수 있도록 하였습니다.  또한 별점을 부여하여 리뷰를 등록하고 강사는 댓글을 남길 수 있도록 구현하였습니다. <br />
+<br />
+파이널프로젝트는 Spring boot와 mybatis를 이용하여 경매사이트를 제작하였으며 JSP구현시 EL, JSTL 표현식을 활용하였습니다. 저는 이 프로젝트에서 물품등록, 회원의 물품관리 페이지, 이머니(사이버머니) 관리 페이지, 오늘 본 페이지, 관심물품 페이지를 구현하였습니다.  세미프로젝트보다 더 많은 기능을 수행하였지만 Spring famework를 사용하다보니 더 향상된 작업속도로 진행할 수 있었습니다. 또한 동적쿼리를 사용하여 검색을 구현할 수 있는 점이 매우 효과적이라고 생각하였습니다. <br />
+<br />
+이 두 프로젝트를 통하여 웹 프론트 화면과 DB설계까지 모두 팀원들과 이루어내는 뜻 깊은 경험을 이루어낼 수 있는 경험이었습니다. 이러한 과정을 거치며 웹 개발자를 꿈에 한 걸음 더 다가갈 수 있었으며 배운 것을 업무에 적용하며 점차 성장하는 웹 개발자가 될 것입니다.<br />
+<br />
+</div>
+                                                                                                        <p class="intit">[입사 후 포부]</p>
+                                    <div class="intxt">[열린마음으로 소통하는 스펀지 같은 개발자가 되겠습니다.]<br />
+개발자는 뛰어난 기술력만큼 클라이언트를 비롯하여 함께 일하는 동료와도 원할하게 소통하는 것이 중요한 업무 역량 중 하나라고 생각합니다. 이를 위해선 상대의 의견에 귀를 기울이고 중재하는 능력이 필요하다고 생각합니다. 저는 상담경력과 웹 개발 교육과정 중 팀 프로젝트 수행을 거치며 조직 내에서의 설득과 원할한 소통을 통하여 업무를 진행하였고 적극적으로 행동하며 업무를 수행하였습니다. 입사 후에도 이런 태도를 가지고 일할 것을 다짐합니다.<br />
+<br />
+또한 빠르게 변화하는 기술에 대응하며 지속적으로 정보를 획득하여 변화하는 시대에 맞는 서비스의 주체가 될 것이며 사용자와 클라이언트의 피드백을 반영하여 사용자가 편하고 클라이언트가 원하는 웹 사이트를 만들어 나갈 수 있도록 책임을 다 할 것입니다.<br />
+신입사원으로서 항상 열린 마음과 유연한 사고를 가지고 업무에 임할 것이며 상대를 존중하고 맞춰나가며 빠르게 업무를 습득하고 기술력을발전시키며 개발업무의 전문가가 되고 싶습니다.</div>
+                                                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </td>
+    </tr>
+    </tbody>
+</table></div>
+</body>
+</html>
