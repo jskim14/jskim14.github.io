@@ -1,2 +1,5 @@
 /bin/
-/assets/vendor/file/
+*.doc
+*.pdf
+*.hwp
+assets/vendor/file/
