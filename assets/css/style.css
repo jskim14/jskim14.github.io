@@ -503,6 +503,7 @@ section {
   display: block;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
+  font-size: 15px;
   color: #2c4964;
 }
 .skills .progress .skill .val {
@@ -517,6 +518,11 @@ section {
   height: 10px;
   transition: 0.9s;
   background-color: #dd5a92;
+}
+
+.skills .image {
+   background-color: #fff; 
+  height: 50%;
 }
 
 /*--------------------------------------------------------------
@@ -565,7 +571,7 @@ section {
   content: "";
   position: absolute;
   width: 16px;
-  height: 16px;
+  height: 16px; 
   border-radius: 50px;
   left: -9px;
   top: 0;
@@ -573,6 +579,9 @@ section {
   border: 2px solid #d43076;
 }
 
+.test {
+  width: 100px;
+}
 
 
 /*--------------------------------------------------------------
