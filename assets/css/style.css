@@ -27,6 +27,17 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Playfair Display", serif;
 }
 
+.btnBasic {
+  /* background-color: #d43076;
+  color: #fff; */
+  color: #d43076;
+}
+
+.btnBasic:hover {
+  background-color: #dd5a93bb;
+  color: #fff; 
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -478,15 +489,6 @@ section {
   margin-bottom: 1%;
 }
 
-.no-gutters .btn {
-  background-color: #d43076;
-  color: #fff;
-}
-
-.no-gutters .btn:hover {
-  background-color: #dd5a93bb;
-
-}
 
 /*--------------------------------------------------------------
 # Skills
